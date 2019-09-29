@@ -5,7 +5,9 @@ Generating new Pokemon with an implementation of DCGAN in Keras.
 
 This model uses an implementation of [DCGAN](https://arxiv.org/abs/1511.06434), DCGAN is a type of generative adversarial network that uses randomly sampled noise to generate images. 
 
-The GAN uses 2 networks working against each other, they both improve over the training, yielding better results. A discriminator network tries to detect which images are fakes and which are from our dataset, while the generator tries to produce increasingly realistic fakes to fool the discriminator.   
+The GAN uses 2 networks working against each other, they both improve over the training, yielding better results. A discriminator network tries to detect which images are fakes and which are from our dataset, while the generator tries to produce increasingly realistic fakes to fool the discriminator.
+
+![DCGAN Architecture](https://miro.medium.com/max/1425/1*Mw2c3eY5khtXafe5W-Ms_w.jpeg)
 
 # Challenges 
 
@@ -22,3 +24,4 @@ Here are the results I was able to achieve training on google colab for a few ho
 - [DCGAN](https://arxiv.org/abs/1511.06434)
 - [GANs in Keras](https://www.youtube.com/watch?v=T-MCludVNn4)
 - [PokeGan](https://github.com/llSourcell/Pokemon_GAN)
+- [DCGAN Medium Post](https://medium.com/datadriveninvestor/deep-convolutional-generative-adversarial-networks-dcgans-3176238b5a3d)
